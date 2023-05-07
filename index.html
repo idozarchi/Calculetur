@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="funcions.js"></script> 
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="all">
+        <div class="main">
+            <div class="calc-box" id="calc-box">0</div>
+            <div class="buttons">
+                <div class="row">
+                    <button class="ac" onclick="clearAll()">AC</button>
+                    <button class="neg-pos" onclick="negpos()">±</button>
+                    <button class="percent" onclick="percent()">%</button>
+                    <button class="divide" onclick="divide()">÷</button>
+                </div>
+                <div class="row">
+                    <button class="seven number" onclick="seven()">7</button>
+                    <button class="eight number" onclick="eight()">8</button>
+                    <button class="nine number" onclick="nine()">9</button>
+                    <button class="*" onclick="multiplication()">x</button>
+                </div>
+                <div class="row">
+                    <button class="four number" onclick="four()">4</button>
+                    <button class="five number" onclick="five()">5</button>
+                    <button class="six number" onclick="six()">6</button>
+                    <button class="minus" onclick="minus()">-</button>
+                </div>
+                <div class="row">
+                    <button class="one number" onclick="one()">1</button>
+                    <button class="two number" onclick="two()">2</button>
+                    <button class="three number" onclick="three()">3</button>
+                    <button class="plus " onclick="plus()">+</button>
+                </div>
+                <div class="row">
+                    <button class="zero number" onclick="zero()">0</button>
+                    <button class="eqwel" onclick="eqwel()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
