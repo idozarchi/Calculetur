@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <script src="funcions.js"></script> 
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="all">
+        <div class="main">
+            <div class="calc-box" id="calc-box">0</div>
+            <div class="buttons">
+                <div class="row">
+                    <button class="ac" onclick="clearAll()">AC</button>
+                    <button class="neg-pos" onclick="sign('±')">±</button>
+                    <button class="percent" onclick="sign('%')">%</button>
+                    <button class="divide" onclick="sign('÷')">÷</button>
+                </div>
+                <div class="row">
+                    <button class="seven number" onclick="pressNumber('7')">7</button>
+                    <button class="eight number" onclick="pressNumber('8')">8</button>
+                    <button class="nine number" onclick="pressNumber('9')">9</button>
+                    <button class="*" onclick="sign('*')">x</button>
+                </div>
+                <div class="row">
+                    <button class="four number" onclick="pressNumber('4')">4</button>
+                    <button class="five number" onclick="pressNumber('5')">5</button>
+                    <button class="six number" onclick="pressNumber('6')">6</button>
+                    <button class="minus" onclick="sign('-')">-</button>
+                </div>
+                <div class="row">
+                    <button class="one number" onclick="pressNumber('1')">1</button>
+                    <button class="two number" onclick="pressNumber('2')">2</button>
+                    <button class="three number" onclick="pressNumber('3')">3</button>
+                    <button class="plus " onclick="sign('+')">+</button>
+                </div>
+                <div class="row">
+                    <button class="zero number" onclick="pressNumber('0')">0</button>
+                    <button class="eqwel" onclick="eqwel()">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
